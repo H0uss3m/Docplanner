@@ -1,0 +1,85 @@
+
+    @media only screen and (min-width:464px) and (max-width: 1000px)   {
+            
+    .services-container {
+        align-items: center ;
+        margin-bottom: 37%;
+    }
+    .services-container-for-patients {
+        height: 300px;
+        margin-bottom: 2%;
+        width: 100%;
+    }
+    .services-container-for-patients-image img {
+        display: block;
+        margin-block-start: -3em;
+        margin-inline-start: 16em;
+        margin-inline-end: 305px;
+    }
+    .services-container-for-doctors {
+        height: 300px;
+        width: 100%;
+    }
+    .services-container-for-doctors-image img {
+        display: block;
+        margin-block-start: -5em;
+        margin-inline-start: 9em;
+        margin-inline-end: 305px;
+    }
+
+        .stats-container {
+            padding: 0%;
+        }
+        .introduction-logo img {
+            display: none;
+        }
+        .stats-box-colomn-1 {
+            margin-top:3%;
+        }
+        .box-1,.box-2 {
+            height: 190px;
+        }
+        .stats-box-logo img {
+            display:none;
+        }
+        .stats-box-colomn-2 {
+            margin-top: 3%;
+        }
+        .box-3,.box-4 {
+            height: 150px;
+        }
+        .box-3 p {
+            margin-right: 0%;
+        }
+        .box-4 p {
+            margin-top: -4%;
+            margin-right: 0%;
+        }
+        .offices-colomn-1 , .offices-colomn-2 {
+            display: flex;
+            flex-direction: column ;   
+        }
+        .opening-information input {
+            margin-right: 21%;
+            margin-top: 10%;
+        }
+        .offices-box-image img {
+            border: 2px solid black ;
+            width: 100% ;
+        }
+        .offices-box {
+            margin-bottom:4%;
+        }
+        /*Css for footer */
+        .offices-list {
+            text-align: right;
+            margin-left: -23%;
+            margin-top: 2%;
+        }
+        footer p {
+            text-align:left;
+        }
+        footer br {
+            display: none ;
+        }
+}

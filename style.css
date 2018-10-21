@@ -1,0 +1,266 @@
+header {
+position: fixed;
+top:0%;
+left: 0%;
+border: 1px solid white;
+background-color: white;
+opacity: .8;
+}
+.navigation {
+    display: flex;
+}
+.docplanner-logo {
+    width: 70%;
+    display: block;
+    margin-block-start: 2%;
+    margin-block-end: 2%;
+    margin-inline-start: 2%;
+    margin-inline-end: 2%;}
+.docplanner-logo img {
+    width:35%;
+}
+.nav-links {
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    margin-top: 2%;
+}
+.nav-links a {
+    text-decoration: none;
+    color: rgb(0,197,155);
+    margin:18px;
+}
+.container{
+    padding: 10%;
+}
+.general-infos-container {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.Docplanner-sygnet {
+   display:flex;
+   justify-content: center;
+}
+.general-infos-container h1 {
+    width: 50%;
+    margin-left: 25%;
+    color: rgb(0,197,155);
+    font-family: 'Charmonman', cursive;
+}
+.discreption-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    text-align: left;
+    margin-left: 8%;
+}
+.services-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-left: 7%;
+    height: 332px;
+}
+.services-container h2 {
+    font-size: 20px;
+    font-weight: 500;
+    margin-left:6%;
+    color: hsla(0,0%,100%,.7);
+}
+.services-container h1 {
+    margin-left: 6%;
+    color: white;
+}
+.countries-existing {
+    margin-left: 6%;
+    padding: 3%;
+    border-radius: 10px;
+}
+.services-container-for-patients {
+    border: 1px solid black;
+    border-radius: 25px;
+    width: 45%;
+    background-color: rgb(0,204,177);
+    overflow: hidden;
+}
+.services-container-for-patients-image {
+    display: block;
+    margin-block-start: -4em;
+    margin-block-end: 3em;
+    margin-inline-start: 15px;
+    margin-inline-end: 100px;   
+}
+.services-container-for-patients-image img {
+    width: 100%;
+    margin-left: 57%;
+}
+.services-container-for-doctors {
+    border: 1px solid;
+    border-radius: 25px;
+    width:45%;
+    background-color: rgb(61,131,223);
+    overflow: hidden;
+}
+.services-container-for-doctors-image
+{    display: block;
+    margin-block-start: -4em;
+    margin-block-end: 3em;
+    margin-inline-start: 15px;
+    margin-inline-end: 100px;
+}
+.services-container-for-doctors-image img {
+    width: 100%;
+    padding: 16%;
+    margin-left: 32%;
+}
+.adress-container {   
+    display: flex;
+    width: 100%;
+    align-items: center;
+}
+.adress-container h1 {
+    font-family: 'Charmonman', cursive;
+    color:rgb(0,204,177);
+    width: 30%;
+}
+.adress-list-of-links {
+    width:70%;
+    margin-left: 10%;
+}
+.adress-list-of-links ul {
+    list-style-type: none;
+    line-height: 3;
+    margin: 10;
+    padding: 10;
+    overflow: hidden;
+}
+.adress-list-of-links li {
+    float:left;
+    margin-right: 15px;
+}
+.adress-list-of-links li a {
+    color:rgb(196,196,196);
+    text-decoration: none;
+}
+.adress-list-of-links img {
+    height: 22px;
+}
+.stats-container {
+    background: linear-gradient(80deg,white,rgb(0,204,177));
+    display: flex;
+    height: 380px;
+    padding: 4%;
+    overflow: hidden;
+}
+.introduction-box {
+    width: 30%;
+}
+.introduction-box h1 {
+    color: rgb(0,177,159);
+    font-family: 'Charmonman', cursive;
+    margin-bottom: 7%;
+}
+.introduction-box p {
+    opacity: 0.4;
+}
+.introduction-logo img {
+    height: 231px;
+    width: 100%;
+    margin-top: 5%;
+}
+.stats {
+    text-align: center;
+    width: 60%;
+    margin: 0 4% 0 19%;
+}
+.stats h1 {
+    color: rgb(0,197,155);
+    font-family: 'Charmonman', cursive;
+}
+    .stats-box {
+        height: 190px;
+        background-color: white;
+        border-radius: 7%;
+        width: 45%;
+        margin-right: 5%;
+    }
+    .stats-box-colomn-2 {
+        display: flex;
+        margin-top:5%;
+    }
+    .stats-box-colomn-1 {
+        display: flex;
+    }
+
+.box-3 p {
+    margin-right: 17%;
+    margin-top: -5%;
+}
+.box-4 p {
+    margin-right: 17%;
+}
+.offices-description {
+    text-align: center;
+}
+.offices-description h1 {
+    color: rgb(0,197,155);
+    font-family: 'Charmonman', cursive;
+}
+.offices-description p {
+    text-align: center;
+    color: black;
+    opacity: .7;
+}
+.offices-colomn-1 {
+    display: flex;
+    justify-content: space-evenly;
+}
+.offices-colomn-2 {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 3%;
+}
+.offices-colomn-1 h1 {
+    font-family: 'Charmonman', cursive;
+}
+.offices-box h2 {
+    font-family: 'Charmonman', cursive;
+}
+.opening-information {
+    text-align: right;
+    margin-top: -17%;
+}
+.opening-information input {
+    background-color: rgb(61,131,223);
+    color:white;
+    height: 31px;
+    border-radius: 25px;
+}
+/*Css for footer */
+footer
+ {  border-top: 1px solid rgba(196,196,196,0.7);
+    text-align: center;
+    color: black;
+    opacity: .7;
+}
+.footer {
+    display: flex;
+    text-align: center;
+}
+.footer p {
+    width: 32%;
+    color: black;
+    opacity: .7;
+    margin-left: 15%;
+    margin-bottom: 0.5%;
+}
+.offices-list {
+    width: 50%;
+    margin-left: -20%;
+    margin-top: 1.2%;
+}
+.footer a {
+    text-decoration: none;
+    color: rgb(61,131,223);
+}
